@@ -20,8 +20,8 @@ require(
         var paper = new Raphael(centerDiv);
 
         // put the width and heigth of the canvas into variables for our own convenience
-        var pWidth = paper.canvas.offsetWidth;
-        var pHeight = paper.canvas.offsetHeight;
+        var pWidth = 1000;
+        var pHeight = 400;
         console.log("pWidth is " + pWidth + ", and pHeight is " + pHeight);
 
 
